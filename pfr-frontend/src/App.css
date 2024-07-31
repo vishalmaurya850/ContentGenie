@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* HomePage Styles */
+.home-page {
+  text-align: center;
+}
+
+.home-page h1 {
+  color: #333;
+}
+
+/* LoginPage and RegisterPage Styles */
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-page h1 {
+  color: #333;
+}
+
+.auth-page form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-page label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.auth-page input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.auth-page button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.auth-page button:hover {
+  background-color: #0056b3;
+}
+
+/* ProfilePage Styles */
+.profile-page {
+  text-align: center;
+}
+
+.profile-page h1 {
+  color: #333;
+}
+
+.profile-page label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.profile-page input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profile-page button {
+  background-color: #28a745;
+  color: #DFC57B;
+}
+
+.profile-page button:hover {
+  background-color: #218838;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+}
+
+/* Content Styles */
+.content {
+  margin-top: 20px;
+}
+
+.content h2 {
+  color: #333;
+}
+
+.content p {
+  color: #555;
+}

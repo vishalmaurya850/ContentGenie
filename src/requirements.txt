@@ -1,0 +1,14 @@
+azure-functions
+azure-identity
+azure-mgmt-datafactory
+azure-storage-blob
+azureml-core
+openai
+Flask
+FLask-CORS
+scikit-learn
+python-dotenv
+azure-mgmt-resource
+azure-mgmt-web
+pandas
+Flask-Bcrypt
