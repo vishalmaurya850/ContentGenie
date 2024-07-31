@@ -62,9 +62,10 @@ jobs:
 
       
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'ContentGenie'
           slot-name: 'Production'
+          type: ZIP
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66125EFEAD2045A0AC5AF76A62114173 }}
