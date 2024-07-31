@@ -42,7 +42,7 @@ jobs:
           name: python-app
           path: |
             release.zip
-            !venv/
+            !antenv/
 
   deploy:
     runs-on: ubuntu-latest
@@ -67,5 +67,4 @@ jobs:
         with:
           app-name: 'ContentGenie'
           slot-name: 'Production'
-          type: ZIP
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66125EFEAD2045A0AC5AF76A62114173 }}
