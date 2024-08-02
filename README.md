@@ -1,2 +1,2 @@
 # PFR
-<img src='https://drive.google.com/file/d/1dgqoD7bc9u85LYxUPpzeXxiPxxgaWtGU/view?usp=sharing'>
+<img src='pfr-frontend/src/logo.png'>
