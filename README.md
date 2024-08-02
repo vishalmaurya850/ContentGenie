@@ -1,2 +1,2 @@
 # PFR
-<img src="pfr-frontend/src/logo.png" height="100" width="100">
+<img src="pfr-frontend/src/logo.png" height="300" width="300">
